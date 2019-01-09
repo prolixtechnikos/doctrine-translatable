@@ -1,5 +1,5 @@
 {
-    "name": "prezent/doctrine-translatable",
+    "name": "prolix/doctrine-translatable",
     "type": "library",
     "description": "Translatable behaviour extension for Doctrine2",
     "keywords": [
@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.3.2",
         "doctrine/common": "^2.3",
-        "jms/metadata": "~1.1"
+        "jms/metadata": "^2.0"
     },
     "require-dev": {
         "doctrine/orm": "^2.3",

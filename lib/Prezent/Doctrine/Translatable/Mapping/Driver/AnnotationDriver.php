@@ -43,7 +43,7 @@ class AnnotationDriver implements DriverInterface
     /**
      * {@inheritdoc}
      */
-    public function loadMetadataForClass(\ReflectionClass $class)
+    public function loadMetadataForClass(\ReflectionClass $class): ?\Metadata\ClassMetadata
     {
         if ($class->implementsInterface('Prezent\\Doctrine\\Translatable\\TranslatableInterface')) {
             return $this->loadTranslatableMetadata($class);
